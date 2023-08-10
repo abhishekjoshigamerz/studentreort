@@ -2,6 +2,14 @@
 @extends('layout')
 @section('content')
 <div class="container">
+    @if ($students->isEmpty())
+        <div class="text-center mt-5">
+            <h2>No student found</h2>
+        </div>
+        
+    @else
+        
+    
     @foreach ($students as $student)
         <div class="text-center mt-5">
             <h2>{{ $student->name }}</h2>
@@ -36,4 +44,5 @@
         </div>
     @endforeach
 </div>
+@endif
 @endsection
