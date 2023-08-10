@@ -1,5 +1,4 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GenerateReportController;
 
@@ -13,7 +12,7 @@ use App\Http\Controllers\GenerateReportController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+//to save time kept it default and simple
 Route::get('/', function () {
     return view('welcome');
 });
