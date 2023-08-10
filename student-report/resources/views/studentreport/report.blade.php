@@ -2,6 +2,7 @@
 @extends('layout')
 @section('content')
 <div class="container">
+    {{-- checks if student data is there  --}}
     @if ($students->isEmpty())
         <div class="text-center mt-5">
             <h2>No student found</h2>
