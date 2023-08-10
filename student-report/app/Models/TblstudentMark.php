@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Models\Subject;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Tblsubject extends Model
+class TblstudentMark extends Model
 {
     use HasFactory;
 }
